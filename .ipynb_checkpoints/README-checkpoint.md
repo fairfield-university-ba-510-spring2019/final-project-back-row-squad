@@ -64,7 +64,7 @@ Our second part of our third step was to populate our ERD tables. For this step,
 
 ## Step 4:
 
-Our fourth step was test for integrity of our `CourseData.db`. We created a new notebook, `CourseDataTests.ipynb`, which containes examples of SQL SELECT queries, which checks for domain integrity (see cells 5-6), entity integrity (see cells 7-17), and referential integrity (see cells 18-21). Since one of our partners is an instructor at the university, we decided to model our queries to answer some questions she would want to answer. Examples of these queries are in the `CoruseDataTests.ipynb`. 
+Our fourth step was test for integrity of our `CourseData.db`. We created a new notebook, `CourseDataTests.ipynb`, which containes examples of SQL SELECT queries, which checks for domain integrity (see cells 5-6), entity integrity (see cells 7-17), and referential integrity (see cells 18-21). Since one of our partners is an instructor at the university, we decided to model our queries to answer some questions she would want to answer. Examples of these queries are in the **[CourseDataTests](CourseDataTests.ipynb)**. 
 
 # Step 5a:
 
@@ -73,15 +73,15 @@ The first part of our fifth step was to design a data warehouse called `CourseDa
 
 # Step 5b:
 
-The second part of our fifth step was to build a data warehouse called `CourseDataWarehouse.db`. We created and populated the dimension tables first. Note that we have an bug in our FACULTY_W table. Then we created and populated the fact table, named: CLASS_FACTS_W. Code for this is found in the [DataWarehouse](CourseDataWarehouseDemo.ipynb)
+The second part of our fifth step was to build a data warehouse called `CourseDataWarehouse.db`. We created and populated the dimension tables first. Note that we have an bug in our FACULTY_W table. Then we created and populated the fact table, named: CLASS_FACTS_W. Code for this is found in this [DataWarehouse](CourseDataWarehouseDemo.ipynb) file.
 
 # Step 6:
 
-Our sixth step was to test our data warehouse called `CourseDataWarehouse.db` for data integrity. We included integrity checks for Domain, Entity and Relational Integrity as we did for the first database. Our work is included in the notebook, `CourseDataWarehouseTests.ipynb`. 
+Our sixth step was to test our data warehouse called `CourseDataWarehouse.db` for data integrity. We included integrity checks for Domain, Entity and Relational Integrity as we did for the first database. Our work is included in the notebook, [CourseDataWarehouseTests](CourseDataWarehouseTests.ipynb). 
 
 # Step 7:
 
-Our seventh step is to demonstrate our results with useful queries. To do so, we attempted to replicate the queries used by Filip's Angels - but using our faculty member teammate (Dawn Massey), rather than Dr. Huntley. Our work is included in the notebook, `CourseDataWarehouseDemo.ipynb`. Our questions include the following: 1. What course has Massey taught the most? 2. Which semester did Massey teach the most hours? 3. In which classroom has Massey taught the most? 4. On which day has Massey taught the most hours? 
+Our seventh step is to demonstrate our results with useful queries. To do so, we attempted to replicate the queries used by Filip's Angels - but using our faculty member teammate (Dawn Massey), rather than Dr. Huntley. Our work is included in the notebook, [CourseDataWarehoustTests](CourseDataWarehouseDemo.ipynb). Our questions include the following: 1. What course has Massey taught the most? 2. Which semester did Massey teach the most hours? 3. In which classroom has Massey taught the most? 4. On which day has Massey taught the most hours? 
 
 # Step 8:
 
