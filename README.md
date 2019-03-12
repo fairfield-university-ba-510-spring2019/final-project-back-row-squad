@@ -73,7 +73,7 @@ The first part of our fifth step was to design a data warehouse called `CourseDa
 
 # Step 5b:
 
-The second part of our fifth step was to build a data warehouse called `CourseDataWarehouse.db`. We created and populated the dimension tables first. Note that we have an bug in our FACULTY_W table. Then we created and populated the fact tabke, named: CLASS_FACTS_W.
+The second part of our fifth step was to build a data warehouse called `CourseDataWarehouse.db`. We created and populated the dimension tables first. Note that we have an bug in our FACULTY_W table. Then we created and populated the fact table, named: CLASS_FACTS_W. Code for this is found in the [DataWarehouse](CourseDataWarehouseDemo.ipynb)
 
 # Step 6:
 
